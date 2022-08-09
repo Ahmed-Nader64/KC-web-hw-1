@@ -1,0 +1,70 @@
+body {
+    background-color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    height: 25px;
+    padding-left: 15px;
+    background-color: white;
+    width: fit-content;
+    height:35px;
+    border-radius: 15px;
+    padding-right: 15px;
+    animation-name: animation;
+    animation-duration: 3s;
+}
+  
+@keyframes animation{
+    0%{
+        color: rgb(255, 0, 0);
+    }
+    20%{
+        color: rgb(255, 106, 0);
+    }
+    40%{
+        color: rgb(255, 255, 0);
+    }
+    60%{
+        color: rgb(0, 255, 13);
+    }
+    80%{
+        color: rgb(0, 251, 255);
+    }
+    100%{
+        color: black;
+    }
+}
+
+div{
+    margin-top: 75px;
+    margin-left: 35px;
+    background-color: rgb(206, 220, 232);
+    width: 700px;
+    border-radius: 35px;
+    box-shadow: 1px 1px 10px rgb(167, 167, 167);
+}
+
+img {
+    width: 250px;
+    margin-left: 15px;
+}
+
+ul{
+   list-style:none;
+   margin-left: 100px;
+   display:inline-block; 
+}
+
+li{
+    margin-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(10, 144, 221);
+}
+
+a button {
+    margin-left: 125px;
+}

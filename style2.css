@@ -1,0 +1,20 @@
+body{
+    font-family: 'Mukta', sans-serif;
+  }
+  h1 {
+    color: rgb(255, 162, 0);
+    width: 100px;
+    margin-left: 15px;
+    background-color: rgb(52, 52, 52);
+    padding-right: 25px;
+    padding-left: 15px;
+    border-radius: 10px;
+  }
+  p {
+    width: 20%;
+    height: 200px;
+    padding: 6px;
+  }
+  a {
+    text-decoration: none;
+  }
